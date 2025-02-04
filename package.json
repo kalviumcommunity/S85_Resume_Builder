@@ -1,4 +1,10 @@
 {
+
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
+
   "name": "s85_resume_builder-main",
   "version": "1.0.0",
   "description": "This is resume builder",
@@ -9,3 +15,4 @@
   "author": "Moksh Sharma",
   "license": "ISC"
 }
+
