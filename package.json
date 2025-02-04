@@ -1,5 +1,18 @@
 {
+
   "dependencies": {
     "express": "^4.21.2"
   }
 }
+
+  "name": "s85_resume_builder-main",
+  "version": "1.0.0",
+  "description": "This is resume builder",
+  "main": "index.js",
+  "scripts": {
+   "test": "echo \"No tests yet\" && exit 0"
+  },
+  "author": "Moksh Sharma",
+  "license": "ISC"
+}
+
