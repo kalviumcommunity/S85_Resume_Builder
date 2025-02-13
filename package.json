@@ -1,4 +1,5 @@
 {
+
   "name": "s85_resume_builder",
   "version": "1.0.0",
   "description": "Resume builder project from Kalvium Community",
@@ -9,7 +10,14 @@
   "scripts": {
     "start": "node index.js"
   },
+
   "dependencies": {
     "express": "^4.21.2"
   }
 }
+
+  
+  "author": "Moksh Sharma",
+  "license": "ISC"
+}
+
