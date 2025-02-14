@@ -1,23 +1,15 @@
 {
-
-  "name": "s85_resume_builder",
+  "name": "s85_resume_builder-main",
   "version": "1.0.0",
-  "description": "Resume builder project from Kalvium Community",
+  "description": "This is resume builder",
   "main": "index.js",
-  "engines": {
-    "node": "22.12.0"
-  },
   "scripts": {
-    "start": "node index.js"
+    "test": "echo \"No tests yet\" && exit 0",
+    "start": "node server.js"
   },
-
+  "author": "Moksh Sharma",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.21.2"
   }
 }
-
-  
-  "author": "Moksh Sharma",
-  "license": "ISC"
-}
-
