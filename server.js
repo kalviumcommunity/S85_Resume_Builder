@@ -6,8 +6,8 @@ const PORT = 3000;
 app.use(express.json());
 
 // Basic /ping route
-app.get('/', (req, res) => {
-    res.send('Hello,I am Moksh.This is my Resume builder project');
+app.get('/ping', (req, res) => {
+    res.send('ping');
 });
 
 // Start the server

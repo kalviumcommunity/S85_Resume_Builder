@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "mOksh",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
