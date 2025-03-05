@@ -1,16 +1,11 @@
-const express = require('express');
-const app = express();
-const PORT = 3000;
+const express = require('express')
+const app = express()
+const port = 3000
 
-// Middleware to parse JSON
-app.use(express.json());
+app.get('/ping',(req,res)=>{
+    res.send("This is ping route")
+})
 
-// Basic /ping route
-app.get('/ping', (req, res) => {
-    res.send('ping');
-});
-
-// Start the server
-app.listen(PORT, () => {
-    console.log(`Server is running on http://localhost:${PORT}`);
-});
+app.listen(port,()=>{
+    console.log(`The server is running on port ${port}`)
+})
