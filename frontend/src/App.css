@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #f4f4f9;
+  background-color: #f8c6ff;
   color: #333;
   display: flex;
   justify-content: center;
@@ -11,6 +11,7 @@ body {
 
 .container {
   text-align: center;
+  
 }
 
 h1 {
