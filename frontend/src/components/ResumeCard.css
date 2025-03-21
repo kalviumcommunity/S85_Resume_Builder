@@ -1,0 +1,27 @@
+.resume-card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f8f8f8;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 10px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.resume-card:hover {
+  transform: scale(1.05);
+}
+
+.resume-card h2 {
+  color: #333;
+}
+
+.resume-card p {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #555;
+}
+.body{
+    background-color: aqua;
+}
